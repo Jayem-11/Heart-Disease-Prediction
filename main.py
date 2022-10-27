@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np # for numerical calculation
 import pickle # Pickle is used for serializing and de-serializing a Python object structure
-from streamlit_lottie import st_lottie_spinner
 import requests
 
 st.write("""
@@ -194,14 +193,11 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
 if predict_bt:
 
-    with st_lottie_spinner(lottie_loading_an, quality='high', height='200px', width='200px'):
-        result = make_predictions()
+    result = make_predictions()
 
-    # if result exists, then stop displaying the loading animation
     if result[0] == 0:
         st.success('## Low risk of getting Cardiovascular diseases')
         st.balloons()
