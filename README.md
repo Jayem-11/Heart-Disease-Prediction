@@ -19,7 +19,7 @@ Deployed at: https://jayem-11-heart-disease-prediction-main-te7fw1.streamlitapp.
 - Scikit-learn
 - Streamlit
 
-## A.<span id="ml"> Machine Learning </span>
+## <span id="ml">A. Machine Learning </span>
 
 - Check-out notebook:  [@notebook](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Heart%20Disease%20Prediction.ipynb)
 - Data source: [Framingham heart study dataset](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset)
@@ -29,7 +29,17 @@ I used the Random Forest Classifier algorithm to train and predict the dataset. 
 ![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(491).png)
 ![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(490).png)
 
+## 
+## <span id="dp"> B. Deploying </span>
 
+- Deployed at: https://jayem-11-heart-disease-prediction-main-te7fw1.streamlitapp.com/
+
+![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(492).png)
+
+## 
+
+- Hit the predict button to input the data to the model. The outcome is as shown below.
+![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(493).png)
 
 
 
