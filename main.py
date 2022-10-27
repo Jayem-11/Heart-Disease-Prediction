@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np # for numerical calculation
 import pickle # Pickle is used for serializing and de-serializing a Python object structure
 import requests
+from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
 
