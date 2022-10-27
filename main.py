@@ -62,7 +62,7 @@ st.write("""
 
 """)
 
-cig_no = st.slider('Number of cigarettes per day', value=15, min_value=1, max_value=50, step=1) 
+cig_no = st.slider('Number of cigarettes per day', value=15, min_value=0, max_value=50, step=1) 
 
 # prevalentStroke
 st.write("""
