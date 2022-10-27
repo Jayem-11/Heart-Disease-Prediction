@@ -22,7 +22,12 @@ Deployed at: https://jayem-11-heart-disease-prediction-main-te7fw1.streamlitapp.
 ## A.<span id="ml"> Machine Learning </span>
 
 - Check-out notebook:  [@notebook](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Heart%20Disease%20Prediction.ipynb)
+- Data source: [Framingham heart study dataset](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset)
 ## 
+I used the Random Forest Classifier algorithm to train and predict the dataset. The model achieved an accuracy of 88% which is actually pretty good.
+
+![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(491).png)
+![Jupyter notebook example](https://github.com/Jayem-11/Heart-Disease-Prediction/blob/main/Screenshot%20(490).png)
 
 
 
